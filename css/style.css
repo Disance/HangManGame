@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    font-family: "Single Day", cursive;
+    background-color: black;
+}
+.letters{
+    margin-top: 20px;
+    text-align: center;
+}
+.letter{
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+.man{
+    text-align: center;
+    width: 100%;
+}
+.word{
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap')
